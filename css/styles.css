@@ -211,3 +211,7 @@ body {
     flex-direction: row;
   }
 }
+.work-experience__title span {
+  visibility: hidden;
+}
+.body-card{display: none;}
