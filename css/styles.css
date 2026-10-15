@@ -58,22 +58,16 @@
   --font-main: "Inter", sans-serif;
 
   /* Texto */
-  --color-text-heading: #111111;
-  /* nombre, títulos de sección y de puesto */
-  --color-text-body: #555555;
-  /* párrafos, subtítulo, ubicación */
-  --color-text-meta: #6d6d6d;
-  /* fechas: información secundaria */
+  --color-text-heading: #111111; /* nombre, títulos de sección y de puesto */
+  --color-text-body: #555555;    /* párrafos, subtítulo, ubicación */
+  --color-text-meta: #6d6d6d;    /* fechas: información secundaria */
 
   /* Superficies */
-  --color-bg-page: #ffffff;
-  /* fondo de la página */
-  --color-bg-tag: #f6f6f6;
-  /* fondo de la píldora "website.com" */
+  --color-bg-page: #ffffff;      /* fondo de la página */
+  --color-bg-tag: #f6f6f6;       /* fondo de la píldora "website.com" */
 
   /* Bordes */
-  --color-border: #F2F2F2;
-  /* marco de las imágenes */
+  --color-border: #F2F2F2;       /* marco de las imágenes */
 }
 
 * {
@@ -129,12 +123,10 @@ body {
 }
 
 .profile__subtitle {
-  font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.8;
   color: var(--color-text-body);
-
 }
 
 .profile__website {
@@ -144,7 +136,7 @@ body {
   color: var(--color-text-body);
   background: var(--color-bg-tag);
   border-radius: 12px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
 }
 
 .section {
@@ -163,7 +155,6 @@ body {
   font-size: 0.875rem;
   line-height: 1.8;
   color: var(--color-text-body);
-
 }
 
 .work-experience {
@@ -178,11 +169,6 @@ body {
   line-height: 1.8;
   color: var(--color-text-meta);
   flex: 0 0 7rem;
-}
-
-.work-experience .details {
-  flex: 1;
-  min-width: 0;
 }
 
 .work-experience__title {
@@ -210,7 +196,6 @@ body {
 .images-experience img {
   border: 1px solid var(--color-border);
   border-radius: 8px;
-  display: flex;
 }
 
 @media (min-width: 768px) {
@@ -219,24 +204,24 @@ body {
   }
 }
 
-
 .body-card {
   border: 1px solid var(--color-border);
   border-radius: 8px;
   margin-top: 1rem;
- display: flex;
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 }
+
 @media (min-width: 768px) {
   .body-card {
     flex-direction: row;
   }
 }
+
 .body-card__image {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  display: flex;
 }
 
 .body-card__title {
@@ -247,13 +232,10 @@ body {
 }
 
 .body-card__subtitle {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.8;
   color: var(--color-text-meta);
-
 }
 
 .body-card__content {
